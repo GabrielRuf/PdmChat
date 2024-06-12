@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_messages">
+
+    <fragment
+        android:id="@+id/navigation_messages"
+        android:name="tech.biotronica.rufino.gabriel.pdmchat.ui.home.MessagesFragment"
+        android:label="Messages"
+        tools:layout="@layout/fragment_messages" />
+
+    <fragment
+        android:id="@+id/navigation_form"
+        android:name="tech.biotronica.rufino.gabriel.pdmchat.ui.form.FormFragment"
+        android:label="Form"
+        tools:layout="@layout/fragment_form" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="tech.biotronica.rufino.gabriel.pdmchat.ui.profile.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="tech.biotronica.rufino.gabriel.pdmchat.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="tech.biotronica.rufino.gabriel.pdmchat.ui.profile.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "166968143521",
+    "project_id": "pdmchat-53a0d",
+    "storage_bucket": "pdmchat-53a0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:166968143521:android:c7e59045238309af7dcae0",
+        "android_client_info": {
+          "package_name": "tech.biotronica.rufino.gabriel.pdmchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-8rSUjYkeEkhhKq2ci-Xunx0a75187hw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
