@@ -23,6 +23,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:hint="Escreva sua mensagem aqui"
+        android:maxLength="150"
         android:inputType="textMultiLine"
         app:layout_constraintTop_toBottomOf="@id/recipientId"
         app:layout_constraintStart_toStartOf="parent"
